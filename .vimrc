@@ -9,6 +9,9 @@ syntax on
 syntax enable
 filetype plugin indent on
 set path+=/usr/lib/gcc/x86_64-linux-gnu/7.3.0a/include
+set path+=/usr/include/GL
+set path+=/usr/include/GLFW
+set path+=/usr/include/glm
 
  set nocp
     filetype plugin on
