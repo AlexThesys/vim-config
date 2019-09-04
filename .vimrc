@@ -8,6 +8,10 @@ set nocompatible
 syntax on
 syntax enable
 filetype plugin indent on
+
+set background=dark
+set t_Co=256
+
 set path+=/usr/lib/gcc/x86_64-linux-gnu/7.3.0a/include
 set path+=/usr/include/GL
 set path+=/usr/include/GLFW
