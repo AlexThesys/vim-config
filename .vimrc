@@ -2,6 +2,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set number
+set rulerformat=%l,%v
+set ruler
 set ft=nasm
 execute pathogen#infect()
 set nocompatible
