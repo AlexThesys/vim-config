@@ -1,7 +1,10 @@
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set ft=nasm
+
+au BufNewFile,BufRead *.asm set ft=nasm
+au BufNewFile,BufRead *.cu set ft=cuda
+au BufNewFile,BufRead *.cuh set ft=cuda
 
 "set background=dark
 "colorscheme stellarized
