@@ -2,6 +2,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+set guioptions=Ace
+
 au BufNewFile,BufRead *.asm set ft=nasm
 au BufNewFile,BufRead *.cu set ft=cuda
 au BufNewFile,BufRead *.cuh set ft=cuda
