@@ -14,6 +14,10 @@ au BufNewFile,BufRead *.cuh set ft=cuda
 colorscheme subtle_dark
 "colorscheme blayu
 
+set cursorline                                         
+hi CursorLine cterm=NONE ctermbg=darkgrey ctermfg=white
+nnoremap ; :set cursorline! <CR>   
+
 set guifont=Monospace\ 13
 execute pathogen#infect()
 syntax on
