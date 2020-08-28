@@ -9,6 +9,7 @@ au BufNewFile,BufRead *.cu set ft=cuda
 au BufNewFile,BufRead *.cuh set ft=cuda
 execute pathogen#infect()
 set nocompatible
+set nohlsearch
 syntax on
 syntax enable
 filetype plugin indent on
