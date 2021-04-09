@@ -29,16 +29,8 @@ set path+=/usr/include/GL
 set path+=/usr/include/GLFW
 set path+=/usr/include/glm
 
- set nocp
-    filetype plugin on
-    map <C-L> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
-
-    set tags=~/.vim/stdtags,~/.vim/stdtags2,tags,.tags,../tags
-
-    autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-
-set path+=**
-command! MakeTags !ctags -R .
+set nocp
+filetype plugin on
 
 let g:netrw_banner=0
 " let g:netrw_browse_split=3
