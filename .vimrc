@@ -20,21 +20,9 @@ set cursorline
 hi CursorLine cterm=NONE ctermbg=darkgrey ctermfg=white
 nnoremap ; :set cursorline! <CR>                       
 
-set path+=/usr/lib/gcc/x86_64-linux-gnu/7.3.0a/include
-set path+=/usr/include/GL
-set path+=/usr/include/GLFW
-set path+=/usr/include/glm
+set nocp
+filetype plugin on
 
- set nocp
-    filetype plugin on
-    map <C-L> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
-
-    set tags=~/.vim/stdtags,~/.vim/stdtags2,tags,.tags,../tags
-
-    autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-
-set path+=**
-command! MakeTags !ctags -R .
 
 let g:netrw_banner=0
 " let g:netrw_browse_split=3
