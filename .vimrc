@@ -14,6 +14,9 @@ syntax on
 syntax enable
 filetype plugin indent on
 
+set path+=**
+set wildmenu
+
 set background=dark
 set t_Co=256
 set cursorline                                         
