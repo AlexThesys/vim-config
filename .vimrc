@@ -4,7 +4,7 @@ set expandtab
 set number
 set rulerformat=%l,%v
 set ruler
-au BufNewFile,BufRead *.asm set ft=nasm
+au BufNewFile,BufRead *.asm set ft=masm
 au BufNewFile,BufRead *.cu set ft=cuda
 au BufNewFile,BufRead *.cuh set ft=cuda
 execute pathogen#infect()
