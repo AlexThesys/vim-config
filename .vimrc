@@ -30,6 +30,10 @@ nnoremap ; :set cursorline! <CR>
 set nocp
 filetype plugin on
 
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"
 
 let g:netrw_banner=0
 " let g:netrw_browse_split=3
