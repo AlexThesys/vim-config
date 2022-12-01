@@ -4,6 +4,7 @@ set expandtab
 set number
 set rulerformat=%l,%v
 set ruler
+highlight LineNr ctermfg=grey
 au BufNewFile,BufRead *.asm set ft=masm
 augroup masm_asm
   au!
