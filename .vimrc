@@ -10,9 +10,7 @@ augroup masm_asm
   au!
   autocmd BufNewFile,BufRead *.asm   set syntax=masm
 augroup END
-au BufNewFile,BufRead *.cu set ft=cuda
-au BufNewFile,BufRead *.cuh set ft=cuda
-execute pathogen#infect()
+"execute pathogen#infect()
 set nocompatible
 set nohlsearch
 syntax on
